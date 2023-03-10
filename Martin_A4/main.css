@@ -1,0 +1,73 @@
+/*GENERAL*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #3e3e42;
+    font-family: sans-serif;
+}
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 2.65rem;
+    background: #1e1e1e;
+    color: darkgrey;
+    padding: 15px;
+}
+/*Buttons & dropdown at top*/
+.controls {
+    width: fit-content;
+    margin: auto;
+}
+button, select {
+    background: #007acc;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button:hover, select:hover {
+    background: #006bb3;
+}
+option:hover
+{
+    color: red;
+}
+/*each question block*/
+.question {
+    display: grid;
+    background: lightgray;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+h2 {
+    margin: 0px;
+    background: darkgrey;
+    padding: 15px;
+}
+p {
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+#inputLabelContainer {
+    margin-top: 30px;
+}
+#inputLabelContainer:hover {
+    font-weight: bold;
+}
+input {
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+input:hover+label { 
+    /*works by adding label (sibling element) to hover condition
+    allowing for the label to become bold when user hovers over radio button*/
+    font-weight: bold;
+}
+/*submit button*/
+#btnSubmit {
+    display: block;
+    margin: 0 auto;
+}
