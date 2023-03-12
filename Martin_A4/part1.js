@@ -29,7 +29,7 @@ function getData() {
 }
 
 //declares & adds event listeners to buttons
-function delcareButtons(json) {
+function delcareButtons() {
   //for loading new quiz
   let btnNewQuiz = document.querySelector("#btnNewQuiz");
   btnNewQuiz.addEventListener("click", getNewData);
